@@ -1,0 +1,33 @@
+{
+    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "no-const-assign": "warn",
+        "multiline-ternary": "off",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "no-var": "warn",
+        "prefer-const": "warn",
+        "no-extra-semi": "warn",
+        "no-set-state": "off",
+        "no-console": "off",
+        "no-compare-neg-zero": "off",
+        "no-extend-native": "off",
+        "array-callback-return": "off",
+        "prettier/trailingComma": "off",
+        "comma-dangle": ["warn", "never"]
+    }
+}
